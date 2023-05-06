@@ -1,5 +1,20 @@
 # Diseño y Nuevos Medios
 
+## Resultados
+
+- [clase-01](https://alexbgh1.github.io/dno037-2023/clase-01)
+- [clase-02](https://alexbgh1.github.io/dno037-2023/clase-02)
+- [clase-03](https://alexbgh1.github.io/dno037-2023/clase-03)
+- [clase-04](https://alexbgh1.github.io/dno037-2023/clase-04)
+- [clase-05](https://alexbgh1.github.io/dno037-2023/clase-05)
+- [clase-06](https://alexbgh1.github.io/dno037-2023/clase-06)
+- [clase-07](https://alexbgh1.github.io/dno037-2023/clase-07)
+- [clase-08](https://alexbgh1.github.io/dno037-2023/clase-08)
+- [clase-09](https://alexbgh1.github.io/dno037-2023/clase-09)
+- [clase-10](https://alexbgh1.github.io/dno037-2023/clase-10)
+
+---
+
 ### Pontificia Universidad Católica de Chile
 
 Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del profesor [Felipe Alberto Cortez Orellana (FACO)](https://faco.cl/).
@@ -12,7 +27,7 @@ Diseño y Nuevos Medios (DNO037) es un Optativo de Profundización a cargo del p
 
 - exige la constante ejercitación y publicación de resultados en [GitHub](https://github.com/).
 
-- - - - - - - - - -
+---
 
 ### Materiales de trabajo
 
@@ -32,14 +47,11 @@ Cada estudiante en este OPR debe contar con:
 
   - navegador web ([Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/); **NO utilizaremos Safari**). Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador)
 
-
-
-
-- - - - - - - - -
+---
 
 ### Clase a clase
 
-**Según [Calendario de Actividades Académicas y Estudiantiles 2023](https://registrosacademicos.uc.cl/wp-content/uploads/2022/11/Calendario-Academico-2023.pdf), las clases del primer semestre comienzan el día lunes 6 de marzo y finalizan el viernes 30 de junio**. 
+**Según [Calendario de Actividades Académicas y Estudiantiles 2023](https://registrosacademicos.uc.cl/wp-content/uploads/2022/11/Calendario-Academico-2023.pdf), las clases del primer semestre comienzan el día lunes 6 de marzo y finalizan el viernes 30 de junio**.
 
 Considerando los días **miércoles** entre 8 de marzo y 28 de junio, resulta **el siguiente clase a clase:**
 
@@ -77,7 +89,6 @@ Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clase
 
 **[Clase 17 → 28/06/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Evaluación Nº4**
 
-
 **Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase. Para que quede más claro, en los primeros README.md el título de **Teoría** es seguido por un paréntesis **(para la casa)**. Si cada estudiante revisa esta "teoría para la casa", las clases de los miércoles podrán basarse en una práctica que organizará su comprensión, atendiendo a dudas puntuales.
 
 Esta modalidad NO aplica en:
@@ -92,7 +103,7 @@ Esta modalidad NO aplica en:
 
 - [Clase 17](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Evaluación Nº4
 
-- - - - - - - -
+---
 
 ### Nota final
 
@@ -106,21 +117,21 @@ Esta modalidad NO aplica en:
 
 **Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
 
-- - - - - - - 
+---
 
 ### Referencias bibliográficas
 
-[O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket Reference". En el desarrollo del Optativo, podrían consultar: 
+[O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket Reference". En el desarrollo del Optativo, podrían consultar:
 
-- Crockford, D. (2008). *JavaScript: The Good Parts: Unearthing the Excellence in JavaScript*
-- Meyer, E.A. (2018). *CSS Pocket Reference: Visual Presentation for the Web*
-- Robbins, J.N. (2013). *HTML5 Pocket Reference: Quick, Comprehensive, Indispensable*
+- Crockford, D. (2008). _JavaScript: The Good Parts: Unearthing the Excellence in JavaScript_
+- Meyer, E.A. (2018). _CSS Pocket Reference: Visual Presentation for the Web_
+- Robbins, J.N. (2013). _HTML5 Pocket Reference: Quick, Comprehensive, Indispensable_
 
 [A Book Apart](https://abookapart.com/) también les puede ser útil. Su colección recomendada para el Optativo es "…for web designers":
 
-- Marquis, M. (2016). *Javascript for web designers*
-- Cederholm, D. (2014) *CSS3 for web designers*
-- Keith, J. & Andrew, R. (2010). *HTML5 for web designers*
+- Marquis, M. (2016). _Javascript for web designers_
+- Cederholm, D. (2014) _CSS3 for web designers_
+- Keith, J. & Andrew, R. (2010). _HTML5 for web designers_
 
 ### Referencias en línea
 

@@ -24,17 +24,17 @@
                 font-weight: 500;
                 line-height: 1.25;
                 color: #eceff1;
-                background: linear-gradient(#222233, #111122);
+                background: linear-gradient(145deg, #9191ff 5%, #8d54d7 30%,  #6123b1 80%, #46138d 100% );
             }
 
             a {
-                color: #78909c;
+                color: #d4f0fe;
                 text-decoration: none;
                 margin-right: 4vw;
             }
 
             a:hover {
-                color: #b0bec5;
+                color: #aad6ec;
                 text-decoration: underline;
             }
 
@@ -51,7 +51,7 @@
             }
 
             main span {
-                color: #b0bec5;
+                color: #d6eefa;
             }
 
             footer {
@@ -83,19 +83,19 @@
         <main id="texto"></main>
         <footer>
             <div id="vinculos">
-                <p><a href="#">NOMBRE APELLIDO</a> <a href="https://github.com/profesorfaco/dno037-2023#readme">DNO37</a></p>
+                <p><a href="#">Alex</a> <a href="https://github.com/profesorfaco/dno037-2023#readme" target="_blank">DNO37</a></p>
             </div>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
             // Creo una variable a la que asigno sólo la hora (getHours) del momento en que carga (Date)
-            var laHora = new Date().getHours();
+            let laHora = new Date().getHours();
 
             // Pongo la hora en el span con identidad hora
             document.querySelector("#hora").innerHTML = laHora;
 
             // Creo una variable
-            var elSaludo;
+            let elSaludo;
 
             // Según la hora, guardo una u otra cosa en la variable recién creada
             if (5 < laHora && laHora < 12) {
@@ -107,20 +107,21 @@
             }
 
             // Creo otra variable
-            var data;
+            let data;
 
             // Guardo en la variable recién creada todos los datos de un JSON
             function preload() {
                 data = loadJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json");
+                // while loading, show a message
             }
 
             // Con function preload() comencé a usar p5.js, antes de eso usé JavaScript a secas.
-
-            var x;
-
+            let x;
             function setup() {
                 noCanvas();
-                x = Math.round(random(0, 15));
+                // Length using p5.js
+                x = floor(random(0, Object.keys(data).length));
+
                 createP(elSaludo).parent("texto").id("pregunta");
                 createSpan("¿Sabía usted que la región " + data[x].region + " tiene " + data[x].provincias.length + " provincias?").parent("pregunta");
             }
