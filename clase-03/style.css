@@ -114,8 +114,8 @@ footer div a#borra {
 
 canvas {
   display: block;
-  height: 100%;
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
   background: #fff;
   box-shadow: 1px 1px 3px #cfd8dc;
   border-radius: 1rem;

@@ -1,17 +1,17 @@
 # Diseño y Nuevos Medios
 
-## Resultados
+### Resultados
 
-- [clase-01](https://alexbgh1.github.io/dno037-2023/clase-01)
-- [clase-02](https://alexbgh1.github.io/dno037-2023/clase-02)
-- [clase-03](https://alexbgh1.github.io/dno037-2023/clase-03)
-- [clase-04](https://alexbgh1.github.io/dno037-2023/clase-04)
-- [clase-05](https://alexbgh1.github.io/dno037-2023/clase-05)
-- [clase-06](https://alexbgh1.github.io/dno037-2023/clase-06)
-- [clase-07](https://alexbgh1.github.io/dno037-2023/clase-07)
-- [clase-08](https://alexbgh1.github.io/dno037-2023/clase-08)
-- [clase-09](https://alexbgh1.github.io/dno037-2023/clase-09)
-- [clase-10](https://alexbgh1.github.io/dno037-2023/clase-10)
+- [clase-01](https://alexbgh1.github.io/dno037-2023/clase-01) ✅
+- [clase-02](https://alexbgh1.github.io/dno037-2023/clase-02) ✅
+- [clase-03](https://alexbgh1.github.io/dno037-2023/clase-03) ✅
+- [clase-04](https://alexbgh1.github.io/dno037-2023/clase-04) ✅
+- [clase-05](https://alexbgh1.github.io/dno037-2023/clase-05) ✅
+- [clase-06](https://alexbgh1.github.io/dno037-2023/clase-06) ✅
+- [clase-07](https://alexbgh1.github.io/dno037-2023/clase-07) ⏳
+- [clase-08](https://alexbgh1.github.io/dno037-2023/clase-08) ⏳
+- [clase-09](https://alexbgh1.github.io/dno037-2023/clase-09) ⏳
+- [clase-10](https://alexbgh1.github.io/dno037-2023/clase-10) ⏳
 
 ---
 

@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Nombre Apellido" />
-        <link href="style.css" rel="stylesheet" />
-        <title>Nombre Apellido</title>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1><a href="index.html">Nombre Apellido</a></h1>
-                <button id="opciones" onclick="location.href='index.html'"><span>&nbsp; &larr; Volver &nbsp;</span></button>
-            </header>
-            <main>
-                <section></section>
-            </main>
-            <footer>
-                <p><a href="#">Nombre Apellido</a> <a href="https://github.com/profesorfaco/dno037-2023">DNO037</a></p>
-            </footer>
-        </div>
-        <!--Primero vamos a buscar la versión más reciente de jQuery-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!--Y ahora podemos usarla-->
-        <script>
-            $(function () {
-                //partimos tal como en la clase 2 o en la evaluación Nº1
-                var n = new URLSearchParams(window.location.search).get("nro");
-                //ponemos una condición
-                if (n != null) {
-                    //ahora vamos por los datos
-                    $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/datos.json", function (data) {
-                        console.log(data);
-                        //no es necesario el forEach para mostrar el detalle de un trabajo
-                        $("section").append("<div><h2>" + data[n].nombre + "</a></h2><p>" + data[n].texto + "</p><small>#" + data[n].soporte + "</small></div>");
-                        //si es necesario para mostrar todas sus fotos
-                        data[n].fotos.forEach((x) => {
-                            $("section").append('<div><img src="' + x + '"></div>');
-                        });
-                    }); // cierro $.getJSON((){});
-                } else {
-                    $("section").html('<div><h2>😓 <a href="index.html">Algo salió mal</a></h2></div>').css("min-height", "70vh");
-                }
-                //lo que sigue es algo de CSS para el botón
-                $("button").css("cursor","pointer");
-            }); //cierro $(function(){});
-        </script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Alex" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Alex</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><a href="index.html">Alex</a></h1>
+        <button id="opciones" onclick="location.href='index.html'">
+          <span>&nbsp; &larr; Volver &nbsp;</span>
+        </button>
+      </header>
+      <main>
+        <section></section>
+      </main>
+      <footer>
+        <p>
+          <a href="#">Alex</a>
+          <a href="https://github.com/profesorfaco/dno037-2023">DNO037</a>
+        </p>
+      </footer>
+    </div>
+    <!--Primero vamos a buscar la versión más reciente de jQuery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--Y ahora podemos usarla-->
+    <script>
+      $(function () {
+        //partimos tal como en la clase 2 o en la evaluación Nº1
+        var n = new URLSearchParams(window.location.search).get("nro");
+        //ponemos una condición
+        if (n != null && n >= 0 && n < 10) {
+          //ahora vamos por los datos
+          $.getJSON("./datos.json", function (data) {
+            console.log(data);
+            //no es necesario el forEach para mostrar el detalle de un trabajo
+            $("section").append(
+              "<div><h2>" +
+                data[n].nombre +
+                "</a></h2><p>" +
+                data[n].texto +
+                "</p><small>#" +
+                data[n].soporte +
+                "</small></div>"
+            );
+            //si es necesario para mostrar todas sus fotos
+            data[n].fotos.forEach((x) => {
+              $("section").append('<div><img src="' + x + '"></div>');
+            });
+          }); // cierro $.getJSON((){});
+        } else {
+          $("section")
+            .html(
+              '<div><h2>😓 <a href="index.html">Algo salió mal</a></h2></div>'
+            )
+            .css("min-height", "70vh");
+        }
+        //lo que sigue es algo de CSS para el botón
+        $("button").css("cursor", "pointer");
+      }); //cierro $(function(){});
+    </script>
+  </body>
 </html>
